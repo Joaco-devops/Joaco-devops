@@ -1,0 +1,48 @@
+/* Reset CSS */
+
+/* Box sizing model */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+/* Remove default margins and padding */
+html, body, h1, h2, h3, h4, h5, h6, p, ul, ol, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a consistent line height */
+body {
+    line-height: 1.5;
+    font-family: Arial, sans-serif; /* Cambia la fuente si lo deseas */
+}
+
+/* Remove list styles */
+ul, ol {
+    list-style: none;
+}
+
+/* Remove text decoration from links */
+a {
+    text-decoration: none;
+    color: inherit; /* Hereda el color del texto */
+}
+
+/* Set images to be responsive */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Table styling */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+/* Set a consistent box model */
+input, button, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}

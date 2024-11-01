@@ -1,0 +1,187 @@
+body {
+    background-color:rgb(0, 128, 100); 
+    background: url(https://imgs.search.brave.com/37klo139KodmefeWrwSoCpwKD_5YwafWutMK5JU4Xr0/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/c29sb2ZvbmRvcy5j/b20vd3AtY29udGVu/dC91cGxvYWRzLzIw/MTUvMTEvRklMRV9B/NDE0MkMtNzNGRTA4/LUE3RkMwMi1FMDQ3/RjMtRkQ0QzA0LUEy/RkVGQi0xMDI0eDU5/Ny5qcGc);
+background-size: 100% 100%;
+}
+h1 {
+    font-size: 20px;
+    color:rgb(251, 255, 255);
+}
+     footer {
+        background-color: rgb(81, 16, 155);
+        border:2px solid white ;
+    }
+     .title {
+        font-size: 20px;
+    color: rgb(82, 22, 194); 
+    width: 220px;
+    margin: auto ;
+    padding: 3em ;
+    text-align: center;
+}
+
+.logo :hover {
+    background-color: rgb(rgb(173, 62, 62), rgb(102, 160, 102), rgb(106, 106, 207));
+}
+.container {
+    background-color: rgb(139, 181, 187);
+    margin-top: auto;
+    border-radius: 20px;
+    justify-content: center;
+    border: 2px solid black;
+    align-items: center;
+}
+.arriba {
+    padding-left: 20px;
+    margin: 20px;
+}
+span {
+    margin: auto;
+    padding-left: 42px;
+}
+.Portada {
+    width: 200px;
+    border: 2px solid white;
+}
+.pagina {
+    justify-content: space-around;
+    position: relative; 
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: 5px 5px 5px aquamarine;
+    text-align: center;
+    margin: 0px 10px;
+    justify-content: center;
+    top: 10px;
+}
+.pagina:hover {
+   color: rgba(255, 255, 255, 0.315);
+}
+p {
+    color: white;
+    text-align: center;
+}
+h2 {
+    color:white;
+    text-align: center;
+}
+li {
+    color:white
+}
+header{
+    background:rgba(81, 16, 155, 0.226);
+    padding: 20px 0;
+    text-align: center;
+    border: 2px ;
+}
+body {
+    margin: 0;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.header {
+    background-color: #2c3e50; 
+    color: white; 
+    text-align: center;
+    padding: 50px 20px; 
+}
+
+.name {
+    font-size: 3em; 
+    margin: 0;
+}
+.subtitle {
+    font-size: 1.5em; 
+    margin: 10px 0;
+}
+
+.social-icons {
+    display: flex; 
+    justify-content: center; 
+    margin-top: 20px;
+}
+
+.icon {
+    margin: 0 30px; 
+}
+
+.social-icon {
+    width: 40px; 
+    height: auto; 
+}
+
+.image {
+    width: 35px;
+}
+
+.pestañas {
+    text-align: center;
+    position: relative;
+    top: 10px;
+    animation-name:zoom;
+    animation-duration: 5s;
+}
+
+h3 {
+    text-align: center;
+    position: relative;
+    top: 40px;
+}
+
+.habilites {
+    width: 200px;
+    border: 2px solid white;
+    position:relative ;
+    left: 100px;
+    top: 10px;
+}
+
+.habilites-2 {
+    width: 200px;
+    border: 2px solid white;
+    position: relative;
+    left: 1600px;
+    top: 10px;
+}
+
+.habi {
+    padding-left: 1600px;
+}
+
+.habili {
+    padding-left: 100px;
+    marker: inherit;
+}
+
+.fondo {
+    width: 200px;
+    border: 2px solid white;
+    position: relative;
+    top: 1px;
+    left: 850px;
+}
+
+.abajoo {
+    margin: 20px;
+    background-color: rgba(255, 255, 255, 0.212);
+    max-width: 600px;
+    text-align: center;
+    padding-left: 40px;
+}
+
+.Information {
+    position: relative;
+    top: 80px;
+}
+
+.second {
+    position: relative;
+    top: 80px;
+}
+
+@keyframes zoom{
+    0%{background:rgba(255, 255, 255, 0) ;}
+    50%{background: rgba(0, 0, 0, 0);}
+    100%{background: rgba(255, 255, 255, 0.007);}
+}
